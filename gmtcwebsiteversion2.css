@@ -1,0 +1,298 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 15;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.eventtitle{
+    font-size: 50px;
+    text-align:center;
+}
+
+
+.eventsall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events1{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    transform: rotate(10deg);
+    /* position: absolute;
+    z-index: 100; */
+}
+
+/* .events2{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: 10;
+} */
+
+.arrow {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #71BFA0;
+    border-radius: 50%;
+    background-color: #71BFA0;
+    }
+    
+.arrow.arrowright::before{
+    width: 15px;
+    height: 15px;
+    content: "";
+    position: absolute;
+    border-top: solid 5px #fff;
+    border-right: solid 5px #fff;
+    left: 6px;
+    top: 10px;
+    transform: rotate(45deg);
+    }
+
+.arrow.arrowleft::before{
+    width: 15px;
+    height: 15px;
+    content: "";
+    position: absolute;
+    border-top: solid 5px #fff;
+    border-right: solid 5px #fff;
+    right: 6px;
+    top: 10px;
+    transform: rotate(225deg);
+    }
+
+.events__imgframe{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    border: solid 0.1em;
+    border-color: rgba(0, 0, 0, 0.6);
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.events__textbox{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background: #71BFA0;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.events__titletext{
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20%;
+}
+
+.events__overviewtext{
+    font-size: 40px;
+    text-align: center;
+    line-height: 100%;
+}
+.about{
+    font-size: 50px;
+    text-align:center;
+}
+/* Green container */
+.about-section {
+    background-color: #7fd9b4;  /* Green color */
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Each stat box */
+.stat-box {
+    text-align: center;
+    padding: 2px;
+    width: 30%;
+}
+
+/* Title of each section */
+.stat-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Large stat number */
+.stat-value {
+    font-size: 35px;
+    font-weight: bolder;
+  
+}
+
+.linkedin-button {
+    background: transparent;
+    position: relative;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #0072b1;
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: #0072b1;
+    transition: color 0.3s ease-out;
+    text-align: center;
+  }
+  
+  .linkedin-button span {
+    margin-left: 8px;
+  }
+  
+  .linkedin-button::before {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    width: 300%;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    transition: transform 0.5s ease-out, opacity 0.3s ease-out;
+    opacity: 0;
+  }
+  
+  .linkedin-button:hover {
+    color: #fff;
+    border: 2px solid #ff8d42;
+  }
+  
+  .linkedin-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  
+  /* Ensuring the LinkedIn icon color transitions smoothly */
+  .linkedin-button svg {
+    fill: #0072;
+    transition: fill 0.3s ease-out;
+  }
+  
+  .linkedin-button:hover svg {
+    fill: #fff;
+  }
+  
+  .ourmission{
+    font-size: 50px;
+    text-align: center;
+
+  }
+  .GMTCmissiontext{
+    font-size:17px;
+    width:40%;
+    padding:100px;
+  }
+  .meet{
+    font-size:50px;
+    text-align:center;
+  }
+  .Hanano {
+    background-color: #71BFA0;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Ryuma {
+    background-color: #71BFA0;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.Hname{
+    font-weight: bold;
+    font-size: large;
+}
+.team-container {
+    display: flex;
+    flex-direction: row; /* Arrange elements in a row */
+    justify-content: space-around; /* Space them evenly */
+    flex-wrap: wrap; /* Wrap elements if the screen is too small */
+    gap: 0px; /* Space between columns */
+}
+
+.teammember {
+    background-color: #71BFA0;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; 
+    max-width: 300px; /* Prevents stretching */
+}
+
+.socials a {
+display: inline-block;
+margin-top: 10px;
+text-decoration: none;
+color: #000;
+font-weight: bold;
+}
+
+      .joinus {
+          text-align: center;
+          margin-top: 50px;
+          padding: 20px;
+          background-color: white;
+          border-radius: 10px;
+          color: black;
+      }
+      .moji{
+         color:#0A154A;
+      }
+      .join-button {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 18px;
+          color: white;
+          background-color: #0A154A;
+          text-decoration: none;
+          border-radius: 5px;
+          border: none;
+          transition: 0.3s;
+          position: relative;
+          overflow: hidden;
+      }
+  
+      .join-button:hover {
+          background-color: #08103A;
+      }
