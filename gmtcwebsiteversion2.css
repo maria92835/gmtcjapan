@@ -9,33 +9,35 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
 }
-nav {
-    background-color: #e0f2e9; /* Added background color */
-    padding: 10px 0;
+
+nav{
+    text-align: center;
 }
 
-nav ul {
+nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav li{
     list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-}
+    display: inline-block;
+    width: 10%;
+    min-width: 90px;
+    }
 
-nav a {
+nav li:not(:last-child){
+    border-right:2px solid #ddd;
+    }
+
+nav a{
     text-decoration: none;
     color: #333;
-    font-weight: bold;
-    transition: color 0.3s;
-}
+    }
 
-nav a:hover {
-    color: #007B8C;
-}
-
-img {
-    height: 50px;
-}
+nav a.current{
+    color: #00B0F0;
+    border-bottom:2px solid #00B0F0;
+    }
 
 .eventtitle{
     font-size: 50px;
@@ -323,3 +325,5 @@ font-weight: bold;
       .join-button:hover {
           background-color: #08103A;
       }
+
+
