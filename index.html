@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="GMTC coding club">
-    <link rel="stylesheet" href="gmtcwebsiteversion2.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>GMTC</title>
     <style>
         html {
@@ -23,10 +23,10 @@
             </ul>
         </nav>
         <div>
-            <img src="gmtclogo.png" alt="GMTC Logo" style="height: 50px;">
+            <img src="logo.png" alt="GMTC Logo" style="height: 50px;">
         </div>
     </header>
-    <h1 id="events">Events</h1>
+    <h1 class = text-center id="events">Events</h1>
     <div class="eventsall">
       <div><a href="#" class="arrow arrowleft"></a></div>
       <div class="events1">
@@ -43,7 +43,19 @@
       </div>
       <div><a href="#" class="arrow arrowright"></a></div>
     </div>
-    <h1 id="about">About</h1>
+    <!-- <div class="events2">
+        <div class="events__imgframe">
+            <div class="events__textbox">
+                <p class="events__titletext">
+                 02
+                </p>
+                <p class="events__overviewtext">
+                  Not yet
+                </p>
+            </div>
+        </div>
+    </div> -->
+    <h1 class=text-center id="about">About</h1>
     <div class="about-section">
         <div class="stat-box">
             <p class="stat-title">FOUNDED</p>
@@ -70,24 +82,26 @@
             <p class="stat-value">1</p>
         </div>
     </div>
-         <h1 class="ourmission">Our mission</h1>
-         <div class="container">
-         <div class="text-container">
-            <p>GMTC Japanは、中高生のエンジニアリングやコーディングの実践的なプロジェクトに取り組む機会を提供する、学生主導のグループです。 GMTC Japan is a student-led initiative providing middle school and high school students with the opportunity to collaborate on hands-on engineering/coding projects that go beyond what is typically offered in school.</p>
-         </div>
-         <div class="image-container">
-            <img src="gmtcwork.jpg" alt="GMTC Japan team">
-         </div>
-    </div>
-        <h1 class="meet">Meet our team</h1>
+    
+    <h1 class="ourmission">Our mission</h1>
+        <div class="ourmissionbox">
+            <div class="GMTCmissiontext">
+                <p>GMTC Japanは、中高生のエンジニアリングやコーディングの<br>実践的なプロジェクトに取り組む機会を提供する、学生主導のグループです。</p>
+                <p><br>GMTC Japan is a student led initiative providing<br> middle school and high school students with the opportunity<br> to collaborate on hands on engineering/coding projects that<br> go on beyond what is typically offered in school. </p>
+            </div>
+            <div class="missionpic">
+            <img class="gmtccodingpic" src="gmtcwork.jpg" alt="GMTC students coding" />
+            </div>
+        </div>
+    <h1 class="meet">Meet our team</h1>
     <div class = "team-container">
       <div class="teammember">
         <div class="Hname">Hanano Suzuki</div>
         <div class="position">Founder/Executive Director</div>
         <div class="socials"></div>
-    </div>
+      </div>
 
-    <div class="teammember">
+      <div class="teammember">
         <div class="Rname"><strong>Ryuma Kojima</strong></div>
         <div class="position">Founder/Executive Director</div>
         <div class="socials">
@@ -98,9 +112,9 @@
                 <span>LinkedIn</span>
             </a>
         </div>
-    </div>
+      </div>
 
-    <div class="teammember">
+      <div class="teammember">
         <div class="Mname"><strong>Maria Fujisawa</strong></div>
         <div class="position">Founder/Executive Director</div>
         <div class="socials">
@@ -111,19 +125,16 @@
                 <span>LinkedIn</span>
             </a>
         </div>
+      </div>
     </div>
-</div>
-                </div>
-                </div>
-            </div>
-            </div>
-            </div>
+
     <div id="join">
             <h1 class="moji">Join Us !!!</h1>
+            <div class="jointext">
             <p>Are you interested in engineering? </p>
             <p>Join GMTC to work on exciting projects with students like you!</p>
             <a class="join-button" href="https://jp.surveymonkey.com/r/5L5MP86" target="_blank" id="explodeButton">Sign Up Now</a>
-    </div>
+            </div>
     </div>
     <footer style="background-color: #E0F2E9; padding: 20px; text-align: center; font-family: Arial, sans-serif;">
         <div>
@@ -136,10 +147,7 @@
         </div>
         <p style="margin-top: 10px; font-size: 14px; color: #333;">&copy; 2024 GMTC Japan. All rights reserved.</p>
     </footer>
-    
     </div>
 </body>
 </html>
-
-
 
