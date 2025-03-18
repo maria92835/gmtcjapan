@@ -318,35 +318,36 @@ text-decoration: none;
 color: #000;
 font-weight: bold;
 }
+.join {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensures text stays centered */
+    margin-top: 50px; /* Adjust spacing if needed */
+    border-radius: 10px;
+    color: black;
+}
 
-      .join {
-          text-align: center;
-          margin-top: 50px;
-          padding: 20px;
-          background-color: white;
-          border-radius: 10px;
-          color: black;
+.moji{
+    color:#0A154A;
       }
-      .moji{
-         color:#0A154A;
-      }
-      .join-button {
-          display: inline-block;
-          padding: 10px 20px;
-          font-size: 18px;
-          color: white;
-          background-color: #0A154A;
-          text-decoration: none;
-          border-radius: 5px;
-          border: none;
-          transition: 0.3s;
-          position: relative;
-          overflow: hidden;
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #0A154A;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
       }
   
       .join-button:hover {
           background-color: #08103A;
       }
-
-
 
