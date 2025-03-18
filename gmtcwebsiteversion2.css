@@ -115,6 +115,7 @@ nav a.current{
     box-sizing: border-box;
 }
 
+
 .events__textbox{
     width: 200px;
     height: 300px;
@@ -159,6 +160,22 @@ nav a.current{
 .img-size {
     width: 300px;  /* Set width */
     height: auto;  /* Keep aspect ratio */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjusts space between text and image */
+}
+
+.text-container {
+    width: 45%;
+    padding-right: 20px; /* Adds space between text and image */
+}
+
+.image-container img {
+    width: 50%; /* Adjust image size */
+    margin-left: -20px; /* Moves image left */
 }
 
 /* Each stat box */
