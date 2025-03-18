@@ -249,6 +249,8 @@ nav a.current{
   .ourmissionbox{
     display: flex;
     justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .GMTCmissiontext{
