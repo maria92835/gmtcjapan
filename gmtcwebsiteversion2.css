@@ -174,7 +174,7 @@ nav a.current{
 }
 
 .image-container img {
-    width: 50%; /* Adjust image size */
+    width: 30%; /* Adjust image size */
     margin-left: -20px; /* Moves image left */
 }
 
